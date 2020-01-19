@@ -1,0 +1,13 @@
+{
+  "name": "next-js-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iankduffy/next-js-template.git",
+  "author": "Ian Duffy <ian.duffy@shiftcommerce.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
