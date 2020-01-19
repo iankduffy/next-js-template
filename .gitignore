@@ -1,3 +1,15 @@
-/node_modules
+
 package-lock.json
-/.next
+
+# next.js
+/.next/
+/out/
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.env
+
+# production
+/build
