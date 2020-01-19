@@ -1,3 +1,4 @@
+import '../stylesheets/styles.scss'
 
 const index = () => {
   return(
