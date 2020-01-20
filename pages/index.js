@@ -3,7 +3,7 @@ import '../stylesheets/styles.scss'
 const index = () => {
   return(
     <div>
-      <h1>Index</h1>
+      <div className="col-12 col-5@lg">Index</div>
     </div>
   )
 }

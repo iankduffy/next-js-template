@@ -2,7 +2,7 @@ $sizesmq: 0, xs, sm, md, lg;
 
 @each $key, $size in $sizes {
   @each $class, $dir in $direction {
-
+    
     %u-pad-#{$class}-#{$key}, 
     .u-pad-#{$class}-#{$key} {
       padding-#{$dir}: $size;

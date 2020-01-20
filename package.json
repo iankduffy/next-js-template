@@ -3,21 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/iankduffy/next-js-template.git",
-  "author": "Ian Duffy <ian.duffy@shiftcommerce.com>",
+  "author": "Ian Duffy",
   "license": "MIT",
+  "scripts": {
+    "dev": "node ssr-server.js",
+    "build": "next build",
+    "deploy": "yarn build"
+  },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "next": "^9.2.0",
+    "express": "^4.17.1",
     "next-compose-plugins": "^2.2.0",
     "next-offline": "^4.0.6",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
-  },
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
   }
 }
