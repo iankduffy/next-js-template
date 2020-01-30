@@ -2,8 +2,9 @@ $grid-length: 1200;
 $grid-cols: 12;
 
 $mq-breakpoints: (
-  xs: 0px, 
-  sm: 360px,
+  0: 0px, 
+  xs: 360px,
+  sm: 500px,
   md: 738px,
   lg: 1025px, 
   xl: 1200px
